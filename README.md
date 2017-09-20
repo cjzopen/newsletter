@@ -2,10 +2,10 @@
 
 Ares 2017 newsletter layout
 
-#lib
+# lib
 
 use jquery.lazyload , RWD-Table-Patterns and swiper3.4.1
 
-#css
+# css
 
 based on bootstrap3.3.7
