@@ -4,30 +4,30 @@ $sLastModified = "Fri, 15 Sep 2017 01:38:00 GMT";
 header("Last-Modified: {$sLastModified}");
 
 //og:image 要絕對網址之用
-$index = 'https://marketing.ares.com.tw/dm/newsletter-2017-09-gov/';
+$index = 'https://newsletter-2017-09/';
 
 // 當前網址 - fb like 之用途
 $url = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 
 $date = '2017.09';
 //title 若有<br>，請在 < 前面空一格
-$title = '政府數位經營型態大翻轉 社群行銷新思維';
-$description = '據觀察近年為強化與民眾互動，電子化政府需求因應而生。從過去系統建置為主，逐漸發展出與社群平台一起維運的趨勢。而隨著民眾網路行為模式的轉變，目前多數政府網站除了提供豐富官網內容外，多數都會搭配社群媒體運用於政策行銷上的宣導…';
-$author = '林萩菁';
+$title = '社群行銷新思維';
+$description = '據觀察近年為強化與民眾互動據觀察近年為強化與民眾互動據觀察近年為強化與民眾互動據觀察近年為強化與民眾互動據觀察近年為強化與民眾互動。';
+$author = '林';
 $authorImg = 'img/authors/sendy.png';
 
 // 搶先 e 報 ; author summary 擇一
 $e=array(
 	array(
 		'img' => 'images/img_index_e_1.jpg',
-		'link' => 'https://edm.ares.com.tw/dm/20171004-Happy-Moon-Festival/?utm_source=edm&utm_medium=email&utm_campaign=20171004-Happy-Moon-Festival',
-		'title' => '資通電腦預祝您中秋節快樂！',
+		'link' => 'https://',
+		'title' => '祝您中秋節快樂！',
 		'author' => '行銷部',
 		'authorImg' => 'img/authors/marketing.png'
 	)
 	,array(
 		'img' => 'images/img_index_e_2.png',
-		'link' => 'https://edm.ares.com.tw/dm/201708-arespp/?utm_source=newsletter&utm_medium=email&utm_campaign=2017_eDM_arespp',
+		'link' => 'https://',
 		'title' => '你知道嗎？台灣資料外洩排名全球第 5 名，位居亞洲榜首！',
 		'summary' => '快來進行資料加密與防護需求檢視！'
 	)
@@ -130,7 +130,7 @@ $managementTitle = 'managementTitle';
 $managementDescription = $managementTitle.$description;
 
 //漫畫資通
-$cartoonTitle = '政府機關網站、APP 建置 <br>有朵啦 ARES 輕鬆搞定！';
+$cartoonTitle = '政府機關網站輕鬆搞定！';
 $cartoonDescription = $cartoonTitle.$description;
 
 
@@ -149,7 +149,7 @@ $info=array(
 	,array(
 		'img' => 'img/logos/cc.png',
 		'link' => 'http://bit.ly/2gICHZP',
-		'title' => "Let's do Starbucks. 「做星巴克？」...同事這樣說是什麼意思"
+		'title' => "Let's do Starbucks. 是什麼意思"
 	)
 );
 ?>
